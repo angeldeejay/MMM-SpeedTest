@@ -1,0 +1,65 @@
+.MMM-SpeedTest .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.MMM-SpeedTest .row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.MMM-SpeedTest .label,
+.MMM-SpeedTest .value {
+  flex: 1;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.MMM-SpeedTest .label {
+  text-align: right;
+  padding-right: 0.5rem;
+  max-width: 35%;
+}
+
+.MMM-SpeedTest .value {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.MMM-SpeedTest .measures .label,
+.MMM-SpeedTest .measures .value {
+  flex: 1;
+  padding: 0;
+}
+
+.MMM-SpeedTest .measures .label {
+  width: auto;
+  min-width: auto;
+  position: relative;
+  flex-grow: 0;
+  flex-shrink: 1;
+  padding: 0 0.5rem;
+  text-align: center;
+}
+
+.MMM-SpeedTest .measures .label:before {
+  line-height: var(--font-size-large);
+  font-size: var(--font-size-medium);
+}
+
+.MMM-SpeedTest .measures .value {
+  letter-spacing: -0.25rem;
+}
+
+.MMM-SpeedTest .measures .download.value {
+  padding-right: 0.25rem;
+  text-align: right;
+}
+
+.MMM-SpeedTest .measures .upload.value {
+  padding-left: 0.25rem;
+  text-align: left;
+}

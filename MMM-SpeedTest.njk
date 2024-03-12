@@ -1,0 +1,28 @@
+<div class="wrapper">
+  <div class="row measures">
+    <div class="download value bright light large">{{ downloadSpeed | safe }}</div>
+    <div class="download label fa fa-solid fa-fw fa-arrow-up"></div>
+    <div class="upload label fa fa-solid fa-fw fa-arrow-down"></div>
+    <div class="upload value bright light large">{{ uploadSpeed | safe }}</div>
+  </div>
+  <div class="row isp">
+    <div class="label bright light">{{ ISP_LABEL | safe }}</div>
+    <div class="value">{{ isp | safe }}</div>
+  </div>
+  <div class="row client">
+    <div class="label bright light">{{ CLIENT_LABEL | safe }}</div>
+    <div class="value">{{ client | safe }}</div>
+  </div>
+  <div class="row ping">
+    <div class="label bright light">{{ PING_LABEL | safe }}</div>
+    <div class="value">{{ ping | safe }}</div>
+  </div>
+  <div class="row jitter">
+    <div class="label bright light">{{ JITTER_LABEL | safe }}</div>
+    <div class="value">{{ jitter | safe }}</div>
+  </div>
+  <div class="row server">
+    <div class="label bright light">{{ SERVER_LABEL | safe }}</div>
+    <div class="value">{{ server | safe }}</div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+{
+  "ISP_LABEL": "Provider",
+  "CLIENT_LABEL": "Client",
+  "PING_LABEL": "Ping",
+  "JITTER_LABEL": "Jitter",
+  "SERVER_LABEL": "Server"
+}
