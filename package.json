@@ -1,6 +1,6 @@
 {
   "name": "MMM-SpeedTest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Performs speed test",
   "main": "MMM-SpeedTest.js",
   "author": "Andrés Vanegas <ukab72106@gmail.com>",

@@ -1,4 +1,5 @@
 .vscode
 **/node_modules
 binaries
+!binaries/.gitkeep
 package-lock.json

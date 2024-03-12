@@ -29,13 +29,13 @@
   white-space: nowrap;
 }
 
-.MMM-SpeedTest .measures .label,
+.MMM-SpeedTest .measures .icon,
 .MMM-SpeedTest .measures .value {
   flex: 1;
   padding: 0;
 }
 
-.MMM-SpeedTest .measures .label {
+.MMM-SpeedTest .measures .icon {
   width: auto;
   min-width: auto;
   position: relative;
@@ -45,21 +45,19 @@
   text-align: center;
 }
 
-.MMM-SpeedTest .measures .label:before {
+.MMM-SpeedTest .measures .icon:before {
   line-height: var(--font-size-large);
   font-size: var(--font-size-medium);
 }
 
 .MMM-SpeedTest .measures .value {
-  letter-spacing: -0.25rem;
+  letter-spacing: -0.125rem;
 }
 
 .MMM-SpeedTest .measures .download.value {
-  padding-right: 0.25rem;
   text-align: right;
 }
 
 .MMM-SpeedTest .measures .upload.value {
-  padding-left: 0.25rem;
   text-align: left;
 }

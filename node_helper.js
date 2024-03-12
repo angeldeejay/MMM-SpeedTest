@@ -148,7 +148,7 @@ module.exports = NodeHelper.create({
     new Promise(getData)
       .then((stdout) => {
         this.setResults(stdout);
-        delay = 5 * 60 * 1000;
+        delay = 60 * 1000;
       })
       .catch((err) => {
         if (err.message && err.message !== "offline") console.error(err);
